@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lobster&family=Raleway:wght@500;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.navigation {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: lightseagreen;
+}
+
+.main-title {
+  font-family: 'Lobster', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.span {
+  color: red;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  margin: 45px 0;
+  gap: 60px;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+.link {
+  padding-left: 40px;
+}
+
+.nav-link:hover {
+  color: coral;
+}
+
+@media (max-width:767.98px) {
+  .ul {
+    display: none;
+  }
+}

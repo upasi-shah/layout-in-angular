@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&family=Raleway:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&family=Raleway:wght@500;800&display=swap');
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gallery-main {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    gap: 153px;
+    
+}
+
+.item-block {
+    height: 316px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    
+}
+
+.item-row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.item-col {
+    
+    flex: 1 1 25%;
+}
+.gal-main {
+    
+    position: relative;
+}
+.circle{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    top: 32px;
+    right: 32px;
+}
+
+.heart{
+    position: absolute;
+    top: 44px;
+    right: 47px;
+    color: #DBE2E5;
+}
+.delicious {
+   
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.subline {
+  
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.watch{
+    padding-right: 14px;
+}
+.utensil{
+    padding-right: 14px;
+    margin-left: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-view {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.gallery-img {
+    max-width: 290px;
+    margin-top: 60px;
+}
+
+img.f-img {
+    border-radius: 20px;
+}
+
+.i-text {
+    margin-top: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 290px;
+}
+@media (max-width:1279px){
+    .gallery-content{
+        margin: 0 10px;
+    }
+    .gallery-main{
+        gap: 10px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .delicious{
+        text-align: center;
+    }
+    .subline{
+        text-align: center;
+        max-width: 500px;
+    }
+
+}
+@media (max-width:767.98px){
+    .item-row{
+        justify-content: center;
+    }
+    .item-col{
+        flex-wrap: wrap;
+        margin-left: 42px;
+        flex: 0 1 25%;
+    }
+    .gallery-main{
+        flex-wrap: wrap;
+    }
+    .delicious{
+        text-align: center;
+    }
+}
+@media (max-width:572px){
+    .delicious{
+        font-size: 30px;
+    }
+    .subline{
+        font-size: 14px;
+    }
+}

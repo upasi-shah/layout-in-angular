@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Lobster&family=Raleway:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lobster&family=Raleway:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lobster&family=Raleway:wght@500;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Mygallery {
+    margin-top: 96px;
+}
+
+.Mygallery .mycol {
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+}
+.blockMy.add{
+    background: none;
+}
+.blockMy {
+    min-height: 434px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.myrow {
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mycol {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.recipe-main {
+    margin-top: 183px;
+}
+
+.recipe-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.recipe-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    max-width: 684px;
+    margin: 0 auto;
+
+}
+
+.unique {
+    display: grid;
+        
+        grid-template-columns: repeat(auto-fit, 24rem );
+        justify-content: center;
+        max-width: 1280px;
+        margin: 0 auto;
+        gap: 40px;
+        margin-top: 96px;
+
+}
+
+.img {
+    max-width: 400px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+border-radius: 30px;
+}
+
+.main-img {
+    text-align: center;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    top: 32px;
+    right: 32px;
+}
+
+.heart{
+    position: absolute;
+    top: 44px;
+    right: 47px;
+    color: #DBE2E5;
+}
+
+.g-img {
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+}
+
+.icon-text {
+    margin: 0 auto;
+    max-width: 352px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+
+
+
+.icons {
+    display: flex;
+    margin-bottom: 32px;
+    padding-left: 24px;
+}
+
+
+
+
+
+.icon-subtext {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 13px;
+    padding-right: 27px;
+}
+.add{
+    background: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+
+
+@media (max-width:767.98px){
+    .Mygallery .mycol{
+        flex: 1 1 50%;
+        max-width: 50%;
+        
+    }
+    .myrow{
+        justify-content: center;
+    }
+ 
+}
+@media (max-width:575.98px){
+    .Mygallery .mycol{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .blockMy{
+        margin-bottom: 40px;
+        
+    }
+    
+   
+}
